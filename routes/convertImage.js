@@ -9,7 +9,7 @@ import convertToJpeg from "../middleware/convertToJpeg.js";
 import validatePostId from "../middleware/validatePostId.js";
 import updatePost from "../utils/updatePost.js";
 
-const router = express.Router();
+const router = express.Router(); //
 
 const upload = multer({
     storage: multer.memoryStorage(),
